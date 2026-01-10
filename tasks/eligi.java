@@ -11,5 +11,13 @@ public static void main(String[] args) {
 		throw new ArithmeticException("not eligible");
 //		System.out.println("Not Eligible");
 	}
+	
+	//create a class with custom exception
+	//extends with Exception
+	//create a parameterized constructor with parameter string
+	//use super keyword inside the constructor
+	
+	
+	
 }
 }
