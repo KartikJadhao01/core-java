@@ -27,3 +27,4 @@ public class charornotusingpara {
         obj.find(ch);
 	}
 }
+
