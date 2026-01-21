@@ -10,7 +10,7 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
 	//1.load and register driver
 	
 	Class.forName("com.mysql.cj.jdbc.Driver");
-	System.out.println("1. JDBC Driver Loaded");
+	System.out.println("1. JDBC Driver Loaded Successfully");
 	
 	String url="jdbc:mysql://localhost:3306/16thjandb";
 	String username="root";
@@ -31,3 +31,4 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
 	System.out.println("5. Connection Closed");
 }
 }
+
