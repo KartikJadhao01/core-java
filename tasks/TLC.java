@@ -1,7 +1,7 @@
 package task;
 
 public class TLC extends Thread {
-	public void run() {
+	public void run(){
         System.out.println("Run");
     }
     public static void main(String[] args) {
@@ -17,3 +17,4 @@ public class TLC extends Thread {
 
     }
 }
+
